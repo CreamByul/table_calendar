@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f194cd67-34af-4176-a5df-d1e461828157" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/calendar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/calendar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/calendar_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/calendar_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/customization/calendar_builders.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/customization/calendar_builders.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/customization/calendar_style.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/customization/calendar_style.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/customization/days_of_week_style.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/customization/days_of_week_style.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/customization/header_style.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/customization/header_style.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/cell_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/cell_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/custom_icon_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/custom_icon_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table_calendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/table_calendar.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/seonghohong/.android/avd/Galaxy_S10_API_30.avd]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,12 +28,22 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

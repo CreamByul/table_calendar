@@ -443,11 +443,11 @@ class CalendarController {
   }
 
   DateTime? _getEventKey(DateTime day) {
-    return visibleEvents.keys.firstWhere((it) => _isSameDay(it, day));
+    return visibleEvents.keys.firstWhereOrNull((it) => _isSameDay(it, day));
   }
 
   DateTime? _getHolidayKey(DateTime day) {
-    return visibleHolidays.keys.firstWhere((it) => _isSameDay(it, day));
+    return visibleHolidays.keys.firstWhereOrNull((it) => _isSameDay(it, day));
   }
 
   /// Returns true if `day` is currently selected.

@@ -267,8 +267,12 @@ class _TableCalendarState extends State<TableCalendar>
     if (widget.onDaySelected != null) {
       widget.onDaySelected!(
         day,
-        widget.calendarController.visibleEvents[_getEventKey(day)!] ?? [],
-        widget.calendarController.visibleHolidays[_getHolidayKey(day)!] ?? [],
+        _getEventKey(day) != null
+            ? widget.calendarController.visibleEvents[_getEventKey(day)!]!
+            : [],
+        _getHolidayKey(day) != null
+            ? widget.calendarController.visibleHolidays[_getHolidayKey(day)!]!
+            : [],
       );
     }
   }
