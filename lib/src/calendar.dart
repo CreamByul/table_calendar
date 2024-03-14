@@ -464,7 +464,6 @@ class _TableCalendarState extends State<TableCalendar>
                     : 220),
         curve: Curves.fastOutSlowIn,
         alignment: Alignment(0, -1),
-        vsync: this,
         child: _buildWrapper(),
       );
     } else {
